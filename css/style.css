@@ -1,0 +1,141 @@
+body{
+	font-size: Segoe UI;
+	font-size: 15px;
+	color: #FF6796;
+}
+header{
+	position: absolute;
+	background-color: #FF6796;
+	width: 100%;
+	top:0;
+}
+.row {
+	margin: auto;
+	padding-top: 100px;
+	padding-bottom: 60px;
+	width: 100%;
+	background-color: #FF6796;
+}
+.row img {
+	position: relative;
+	top: 0;
+	left: 0;
+	border: 30px solid white;
+	border-radius: 50%;
+	border-color: rgba(255,255,255,0.4);
+	width: auto;
+	height: 600px;
+}
+.column{
+	flex: 33.33%;
+	padding: 5px;
+}
+.column h1{
+	padding-top: 30%;
+	padding-left: 20%;
+	font-size: 60px;
+	color: white;
+	font-family: lobster;
+}
+.column h3{
+	font-size: 16px;
+	padding-left: 20%;
+	color: white;
+	font-family: opensans;
+}
+.btn-negro{
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+	background-color: skyblue;
+	color: white;
+	border-radius: 20px;
+	margin-left: 20%;
+}
+.lobster-title {
+	margin-bottom: 80px;
+	margin-top: 80px;
+	font-family: lobster;
+	font-size: 60px;
+	text-align: center;
+	padding: 10px;
+	color: #444444;
+}
+.works{
+	display: flex;
+	margin: auto;
+	background-color: white;
+	padding-bottom: 10%;
+}
+.works img{
+	position: relative;
+	top: 0;
+	left: 0;
+	border: 30px solid #150404;
+	border-radius: 50%;
+	border-color: rgba(0,0,0,0.2);
+	width: 400px;
+	height: 400px;
+}
+.products{
+	display: flex;
+	margin: 0;
+	padding-bottom: 10%;
+}
+.products img{
+	position: relative;
+	top: 0;
+	left: 0;
+	padding-left: 4%;
+	border-radius: 10%;
+	border-color: rgba(0,0,0,0.2);
+	width: 250px;
+	height: auto;
+}
+.products img:hover {
+	filter: gray(0.8); !important
+}
+.lobster-title-white {
+	margin-bottom: 80px;
+	font-family: lobster;
+	font-size: 60px;
+	text-align: center;
+	padding-top: 80px;
+	color: white;
+}
+.box{
+	border: 15px solid white;
+	padding: 20px;
+	margin-top: -20%;
+	background-color: white;
+	border-radius: 10%;
+	text-align: center;
+}
+.box h3{
+	padding-top: 20%;
+	font-family: lobster;
+	color: black;
+}
+.features{
+	display: flex;
+	padding-bottom: 10%;
+	text-align: center;
+	margin: 10%;
+}
+.features h3{
+	font-family: lobster;
+	color: white;
+	text-align: center;
+	font-size: 60px;
+}
+.column-features p{ 
+	text-align: center;
+	color: white;
+	font-family: opensans;
+	padding: 10%;
+}
+.i {
+	text-align: center;
+	color: white;
+	font-family: opensans;
+	padding: 10%;
+}
